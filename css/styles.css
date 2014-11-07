@@ -11,6 +11,7 @@ html, body {
 
 h1 {
 	font-size: 55px;
+	text-align: center;
 }
 
 .ui.grid {
@@ -23,3 +24,18 @@ h1 {
 	margin-left: 100px;
 	color: gray;
 }
+
+.ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
+width: 244px;
+margin-top: 25px;
+font-size: 1rem;
+}
+
+.ui.segment {
+position: relative;
+background-color: #FFF;
+-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+margin: 1em 0;
+padding: 1em;
+border-radius: 2px;
