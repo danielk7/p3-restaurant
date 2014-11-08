@@ -6,7 +6,9 @@ html, body {
   height:100%;
 }
 
-
+p {
+	color: gray;
+}
 
 
 h1 {
@@ -14,10 +16,19 @@ h1 {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+	color: gray;
+}
+
 .ui.grid {
 	text-align: left;
 }
 
+
+div.ui.segment.raised {
+  width: 470px;
+}
 
 
 .ui .segment {
@@ -39,3 +50,10 @@ box-shadow: 0 0 0 1px rgba(0,0,0,.1);
 margin: 1em 0;
 padding: 1em;
 border-radius: 2px;
+}
+
+
+.ui.button, .ui.buttons .button {
+background-color: white;
+color: #d9261c;
+}
