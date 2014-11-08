@@ -57,3 +57,29 @@ border-radius: 2px;
 background-color: white;
 color: #d9261c;
 }
+
+#message {
+	height: 150px;
+}
+
+#message .placeholder
+
+
+footer {
+	display: block;
+}
+
+footer {
+}
+
+footer a:hover {
+	color: #f17c72;
+}
+
+.copy {
+	color: gray;
+	padding-top: 29px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	line-height: 24px;
+}
