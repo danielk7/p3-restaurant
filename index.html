@@ -12,13 +12,15 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/semantic.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="js/js.js">
+  <script src="js/js.js"></script>
 
 </head>
 
 <body>
 <!--// HEADER //-->
 
-<div class="ui grid">
+<div id="top" class="ui grid">
 
 <div class="sixteen wide center aligned column">
   <a href="http://danielk7.github.io/p3-restaurant/">
@@ -33,18 +35,18 @@
 <!--// MENU //-->
 
 <div class="ui pointing menu">
-   <a class="item basic buttons">
+   <a href="#top" class="item basic buttons">
     <i></i> Home
   </a>
-  <a class="item basic buttons">
+  <a href="#page2" class="item basic buttons">
     <i></i> Menu
   </a>
-  <a class="item basic buttons">
+  <a href="#contact" class="item basic buttons">
     <i></i> Contact
   </a>
 
   
-  <a class="item right basic buttons">
+  <a href="#location" class="item right basic buttons">
     <i></i> Our Location
   </a>
 
@@ -72,6 +74,10 @@
 </div>
 
 <!--// PAGE 2 //-->
+
+
+<h3 id="page2">Menu</h3>
+ <div> <p>Please select your iteam from the menu bellow</p></div>
 
 <!--// ROW 1 //-->
 
@@ -155,7 +161,7 @@
 
 
 <div class="eight wide column">
-<h3 class="ui dividing header four wide column">
+<h3 id="location" class="ui dividing header four wide column">
   Open Hours
 </h3>
 <p>Monday 11:30pm-9:30pm</p>
@@ -168,7 +174,26 @@
 </div>
 
 <div class="eight wide column">
-<h3 class="ui dividing header four wide column">
+  <h3 class="ui dividing header">
+  Our Location
+</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10749.040677192921!2d-117.423774!3d47.659942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1415213745607" width="465" height="250" frameborder="0" style="border:0"></iframe>
+    <p>Sushi Maru // River Park Square</p>
+    <p>808 West Main Avenue Suite #105</p>
+    <p>Spokane, WA 99201</p>
+    <p><i class="phone icon red"></i><a href="tel:509-455-3900"></a>509-455-3900</p>
+    <p><i class="mail icon red"></i><a href="mailto:maruspokane@gmail.com">Email</a></p>
+</div>
+
+
+<div class="ui horizontal icon divider">
+  <i class="circular heart red icon"></i>
+</div>
+
+
+
+<div class="eight wide column">
+<h3 id="contact" class="ui dividing header four wide column">
 Make a reservation
 </h3>
 
@@ -176,7 +201,7 @@ Make a reservation
 
       <header>        
 
-        <h2>September</h2>
+        <h2>November</h2>
 
         <a class="btn-prev fontawesome-angle-left" href="#"></a>
         <a class="btn-next fontawesome-angle-right" href="#"></a>
@@ -269,18 +294,6 @@ Make a reservation
 </div>
 
 
-<div class="eight wide column">
-  <h3 class="ui dividing header">
-  Our Location
-</h3>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10749.040677192921!2d-117.423774!3d47.659942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1415213745607" width="465" height="250" frameborder="0" style="border:0"></iframe>
-    <p>Sushi Maru // River Park Square</p>
-    <p>808 West Main Avenue Suite #105</p>
-    <p>Spokane, WA 99201</p>
-    <p><i class="phone icon red"></i><a href="tel:509-455-3900"></a>509-455-3900</p>
-    <p><i class="mail icon red"></i><a href="mailto:maruspokane@gmail.com">Email</a></p>
-</div>
-
 
 <div class="eight wide column">
 <h3 class="ui dividing header">
@@ -303,7 +316,7 @@ Send us a message
   </div>
   <div class="field">
     <label>Message</label>
-    <input id="message" placeholder="Type your message here..." type="text">
+    <input id="message" placeholder="" type="field">
   </div>
   <div class="inline field">
     <div class="ui checkbox">
@@ -324,10 +337,15 @@ Send us a message
 <!--// FOOTTER //-->
 
 <footer>
-      <div class="sixteen wide column">
+      <div class="eight wide column">
           <div class="copy">
             <a onClick="goToByScroll('page1'); return false;" href="#"></a>  &copy; 2014 | <a href="#">Privacy Policy</a> <br> Website designed by Daniel K from <a href="http://skydream-studio.com/" rel="nofollow">Sky Dream Studio</a>
           </div>
+
+          <div class="eight wide column">
+          <i href="#top" class="up arrow icon">Back to top</i>
+          </div>
+
       
         <div class="clear"></div>
      

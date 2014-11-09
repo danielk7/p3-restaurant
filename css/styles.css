@@ -38,6 +38,15 @@ div.ui.segment.raised {
   width: 470px;
 }
 
+#arrow {
+	color: #d9261c;
+}
+
+
+h3 {
+	color: #d9261c;
+}
+
 
 .ui .segment {
 	margin-left: 100px;
@@ -96,7 +105,10 @@ color: #d9261c;
 }
 
 #message {
-	height: 150px;
+height: 150px;
+width: 470px;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 5px;
 }
 
 #message .placeholder
@@ -294,7 +306,7 @@ table {
 }
 
 .calendar tbody td:hover {
-	border: 2px solid #00addf;
+	border: 2px solid #d9261c;
 }
 
 .calendar td {
@@ -318,7 +330,7 @@ table {
 }
 
 .current-day {
-	background: #00addf;
+	background: #d9261c;
 	color: #f9f9f9;
 }
 
@@ -328,7 +340,7 @@ table {
 }
 
 .event:after {
-	background: #00addf;
+	background: #d9261c;
 	border-radius: 50%;
 	bottom: .5em;
 	display: block;
