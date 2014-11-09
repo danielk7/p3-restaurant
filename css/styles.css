@@ -19,6 +19,8 @@ p {
 }
 
 
+
+
 h1 {
 	font-size: 55px;
 	text-align: center;
@@ -105,7 +107,7 @@ color: #d9261c;
 }
 
 #message {
-height: 150px;
+height: 205px;
 width: 470px;
 border: 1px solid rgba(0,0,0,.15);
 border-radius: 5px;
@@ -309,6 +311,7 @@ table {
 	border: 2px solid #d9261c;
 }
 
+
 .calendar td {
 	border: 2px solid transparent;
 	border-radius: 50%;
@@ -384,3 +387,35 @@ table {
 	right: 6em;
 }
 
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media screen and (min-width: 320px) {
+	body {
+      
+  }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  body { 
+  }
+  
+}
+
+/* Desktop */
+@media screen and (min-width: 1140px) {
+
+    body {
+         
+    }
+
+}
