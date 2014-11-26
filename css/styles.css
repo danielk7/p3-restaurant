@@ -18,7 +18,7 @@ p {
 	color: gray;
 }
 
-#yellow {
+.yellow {
 	color: #ffe400;
 }
 
@@ -31,7 +31,7 @@ p {
 }
 
 .green {
-	color: #00d52d;
+	color: #00c0ff;
 }
 
 
